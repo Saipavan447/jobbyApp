@@ -10,7 +10,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 import './index.css'
 
 const activeStatus = {
-  Initial: 'Initial',
+  initial: 'initial',
   progress: 'progress',
   success: 'success',
   failure: 'failure',
@@ -116,7 +116,7 @@ class Jobs extends Component {
         jobDescription: eachJob.job_description,
         companyLogo: eachJob.company_logo_url,
         location: eachJob.location,
-        package: eachJob.package_per_annum,
+        package1: eachJob.package_per_annum,
         rating: eachJob.rating,
         title: eachJob.title,
         eType: eachJob.employment_type,
@@ -210,7 +210,7 @@ class Jobs extends Component {
             <div className="left-side-card">
               <div>
                 <Profile />
-                <hr />
+                <hr className="line" />
               </div>
               <div>
                 <FiltersGroup
@@ -235,7 +235,7 @@ class Jobs extends Component {
                 <button
                   type="button"
                   testid="searchButton"
-                  className="search-but"
+                  className="search-button"
                   onClick={this.searchButton}
                 >
                   <BsSearch className="search-icon" />

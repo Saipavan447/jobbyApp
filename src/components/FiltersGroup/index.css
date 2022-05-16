@@ -11,10 +11,12 @@
 .check-box {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .filter-head {
   color: white;
   font-size: 20px;
+  margin-left: 45px;
 }
 .label {
   color: white;

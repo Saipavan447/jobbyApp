@@ -1,6 +1,5 @@
 import Cookies from 'js-cookie'
 import {Component} from 'react'
-// import {Link} from 'react-router-dom'
 import Loader from 'react-loader-spinner'
 import {BsStar, BsBag} from 'react-icons/bs'
 import {GoLocation} from 'react-icons/go'
@@ -103,7 +102,7 @@ class JobItemDetails extends Component {
     } = jobDetailsList
     return (
       <div className="similar-page2">
-        <div className="job-card-detail">
+        <div className="job-card">
           <div className="top-card">
             <img
               src={companyLogo}

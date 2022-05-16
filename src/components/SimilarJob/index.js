@@ -16,7 +16,7 @@ const SimilarJob = props => {
         />
         <div className="title">
           <h1>{title}</h1>
-          <div>
+          <div className="similar-rating">
             <BsStar className="star" />
             <p className="rating">{rating}</p>
           </div>
@@ -27,11 +27,11 @@ const SimilarJob = props => {
       <div className="row-s">
         <div className="row-s">
           <GoLocation />
-          <p>{location}</p>
+          <p className="similar-name">{location}</p>
         </div>
         <div className="row-s">
           <BsBag />
-          <p>{eType}</p>
+          <p className="similar-name">{eType}</p>
         </div>
       </div>
     </li>

@@ -148,7 +148,7 @@ class Jobs extends Component {
     return (
       <ul>
         {jobsList.map(eachJob => (
-          <JobCard key={eachJob.id} eachJobDetails={eachJob} />
+          <JobCard key={eachJob.jobId} eachJobDetails={eachJob} />
         ))}
       </ul>
     )

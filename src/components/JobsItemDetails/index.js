@@ -1,7 +1,8 @@
 import Cookies from 'js-cookie'
 import {Component} from 'react'
 import Loader from 'react-loader-spinner'
-import {BsStar, BsBag} from 'react-icons/bs'
+import {BsBag} from 'react-icons/bs'
+import {AiFillStar} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import {RiExternalLinkFill} from 'react-icons/ri'
 import Header from '../Header'
@@ -113,7 +114,7 @@ class JobItemDetails extends Component {
               <h1 className="title-font">{title}</h1>
               <div className="row">
                 <p className="rating">
-                  <BsStar className="star" />
+                  <AiFillStar className="star" />
                   {rating}
                 </p>
               </div>

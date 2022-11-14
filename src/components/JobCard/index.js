@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom'
-import {BsStar, BsBag} from 'react-icons/bs'
+import {BsBag} from 'react-icons/bs'
+import {AiFillStar} from 'react-icons/ai'
 import {GoLocation} from 'react-icons/go'
 import './index.css'
 
@@ -24,7 +25,7 @@ const JobCard = props => {
             <h1 className="title-font">{title}</h1>
             <div className="row">
               <p className="rating">
-                <BsStar className="star" />
+                <AiFillStar className="star" />
                 {rating}
               </p>
             </div>
